@@ -1,6 +1,6 @@
 # flutter_widgets
 
-Flutter to  familiar  widgets in flutter.
+To  familiar  widgets in flutter.
 
 ## Getting Started
 
