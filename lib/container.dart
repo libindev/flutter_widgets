@@ -3,6 +3,7 @@
 
 //Container Widget should not render directly without any parent widget.
 
+
 // You can use Center widget, Padding Widget, Column Widget, Row Widget or Scaffold Widget as parent.
 
 import 'package:flutter/cupertino.dart';
@@ -26,6 +27,8 @@ Widget containerWithChild() {
   );
 }
 
+
+//  https://medium.com/jlouage/container-de5b0d3ad184
 Widget containerWithShadowBorderAlignment(double width, height) {
   // we can set height  and  width  to the container.
   // But it  should be  less than  its parent  dimensions.
@@ -35,7 +38,7 @@ Widget containerWithShadowBorderAlignment(double width, height) {
     width: width,
     alignment: FractionalOffset(0.0, 0.0),
     //Alignment.bottomRight, child  alignment.  Values from -1 to 1
-    //  https://medium.com/jlouage/container-de5b0d3ad184
+
     // FractionalOffset(0.5, 0.5) Values from 0 to 1
     margin: EdgeInsets.all(25.0),
     decoration: new ShapeDecoration(

@@ -1,14 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/buttons.dart';
+import 'package:flutter_widgets/dropDownMenu.dart';
+import 'package:flutter_widgets/scaffold.dart';
 import 'package:flutter_widgets/spacer.dart';
 import 'package:flutter_widgets/stack.dart';
 import 'package:flutter_widgets/text.dart';
 import 'package:flutter_widgets/wrap.dart';
 import 'appbar.dart';
+import 'cardsAndInkwell.dart';
 import 'columnAndRow.dart';
 import 'container.dart';
 import 'expanded&Flexible.dart';
+import 'images.dart';
 import 'listView.dart';
+import 'otherStatefulWidgets.dart';
 
 void main() => runApp(MyApp());
 
@@ -47,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return Scaffold(
       appBar:appBarWithTitleAndSubtitle(),//appBarWithIcons()  ,// appbarWithTitle(),
-      body: spacer()
+      body: otherWidgets(context)
     );
 
 

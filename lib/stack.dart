@@ -54,7 +54,7 @@ Widget positioned(){
 }
 
 Widget positioned_2(){
-//position  on the basis of  parent  widget of the stack.
+//position  on the basis of  parent  container.
   return Container(
     height: 400.0,
     width: 350.0,
